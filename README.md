@@ -1,5 +1,10 @@
 # notes_app
 
+
+
+https://user-images.githubusercontent.com/77281736/229248914-93a28dac-b154-466a-aaf6-6e1616b5a9c5.mp4
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

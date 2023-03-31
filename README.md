@@ -1,6 +1,6 @@
 # notes_app
 
-
+This simple app uses Vue 3 compostion API
 
 https://user-images.githubusercontent.com/77281736/229248914-93a28dac-b154-466a-aaf6-6e1616b5a9c5.mp4
 

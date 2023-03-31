@@ -2,7 +2,7 @@
     <div>
         <div v-if="showModal" class="overlay">
             <div class="modal">
-                <textarea v-model="inputNote" name="note" id="note" cols="30" rows="10"></textarea>
+                <textarea v-model.trim="inputNote" name="note" id="note" cols="30" rows="10"></textarea>
                 <p class="error-text" v-if="errorMessage">{{ errorMessage }}</p>
                 <button @click="addNote">Add Note</button>
                 <button @click="toggleModal" class="close">Close</button>
@@ -35,7 +35,7 @@ const addNote = () => {
         errorMessage.value = "Note can't be empty"
         return;
     }
-    if (inputNote.value.length < 10) {
+    if (inputNote.value.trim().length < 10) {
         errorMessage.value = "Note has to be more than 10 characters"
         return;
     }
